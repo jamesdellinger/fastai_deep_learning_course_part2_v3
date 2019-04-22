@@ -21,6 +21,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 
 ### Week 9: How to Train Your Model
 * [Mini-batch Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/03_minibatch_training_my_reimplementation.ipynb?flush_cache=true)
+* [Callbacks](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/04_callbacks_my_reimplementation.ipynb?flush_cache=true)
 #### Papers Covered
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
 * [Exact solutions to the nonlinear dynamics of learning in deep linear neural networks](https://arxiv.org/abs/1312.6120)
