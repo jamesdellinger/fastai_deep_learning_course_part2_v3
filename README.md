@@ -27,3 +27,8 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
 * [Exact solutions to the nonlinear dynamics of learning in deep linear neural networks](https://arxiv.org/abs/1312.6120)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
+
+### Week 10: 
+* []()
+#### Papers Covered
+* []()
