@@ -14,7 +14,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Matrix Multiplication](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/01_matmul_my_reimplementation.ipynb?flush_cache=true)
 * [Forward & Backward Passes](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/02_fully_connected_my_reimplementation.ipynb?flush_cache=true)
     * [My Medium Post on Weight Initialization](https://medium.com/@jamesdell/weight-initialization-in-neural-networks-a-journey-from-the-basics-to-kaiming-954fb9b47c79)    
-#### Papers Covered
+#### Relevant Papers
 * [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
 * [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a.html)
 * [Fixup Initialization: Residual Learning Without Normalization](https://arxiv.org/abs/1901.09321)
@@ -23,12 +23,23 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Mini-batch Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/03_minibatch_training_my_reimplementation.ipynb?flush_cache=true)
 * [Callbacks](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/04_callbacks_my_reimplementation.ipynb?flush_cache=true)
 * [Annealing](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/05_anneal_my_reimplementation.ipynb?flush_cache=true)
-#### Papers Covered
+#### Relevant Papers
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
 * [Exact solutions to the nonlinear dynamics of learning in deep linear neural networks](https://arxiv.org/abs/1312.6120)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
 ### Week 10: 
-* []()
-#### Papers Covered
+* [Early Stopping](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/05b_early_stopping_reimplementation.ipynb?flush_cache=true)
+* [CUDA CNN Hooks]()
+* [Batchnorm]()
+#### Relevant Papers
+* [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+* [Layer Normalization](https://arxiv.org/abs/1607.06450)
+* [Instance Normalization: The Missing Ingredient for Fast Stylization](https://arxiv.org/abs/1607.08022)
+* [Group Normalization](https://arxiv.org/abs/1803.08494)
+* [Revisiting Small Batch Training for Deep Neural Networks](https://arxiv.org/abs/1804.07612)
+
+### Week 11: 
+* [](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/05b_early_stopping_reimplementation.ipynb?flush_cache=true)
+#### Relevant Papers
 * []()
