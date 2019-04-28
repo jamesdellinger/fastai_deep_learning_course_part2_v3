@@ -28,7 +28,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Exact solutions to the nonlinear dynamics of learning in deep linear neural networks](https://arxiv.org/abs/1312.6120)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
-### Week 10: 
+### Week 10: Wrapping up our CNN
 * [Early Stopping](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/05b_early_stopping_my_reimplementation.ipynb?flush_cache=true)
 * [CUDA Training and Hooks](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/06_cuda_cnn_hooks_init_my_reimplementation.ipynb?flush_cache=true)
 * [Batchnorm]()
