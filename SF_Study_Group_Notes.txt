@@ -1,0 +1,149 @@
+fastai part II USF study group
+
+
+Thurs 3/21/2019
+
+There likely still need to be invented new ways of measuring how well a network is training the training cycle.
+Typically, folks look at the variance of activation outputs, but is this sufficient?
+What about:
+    -looking at the weights instead of the activations?
+    -eg. variance of the weights
+    -or variance of weights / mean of the weights
+    -or percentiles of weights
+    -or percent of weights less than zero
+Jeremy recommends looking at notebook 06 (on CUDA and PyTorch hooks) and try out some of the above suggestions.
+Or try inventing some new approaches to telemetry of your own!
+
+
+Fri 3/22/2019
+
+What transforms should be done on GPU vs CPU?
+(GPUs will likely get faster, at a faster rate, than CPUs)
+    -byte resizing (don't convert image to float before you resize); bytes take up less space (are 4 times smaller than floats); floats also require the computational overhead of floating point operations
+    -byte resizing ideal for doing on GPU
+    -GPU .jpg (use Nvidia's Dali library to handle jpegs)
+    -batch-wise tfms (for when tfms are done on GPU; if on CPU it's not by batch)
+    -mixup also can be done on GPU (almost don't need other tfms when you use this, it's just so good)
+
+    -some transforms are too lossy (like brightness) when done on GPU, so these should be done on CPU, one-by-one
+
+
+Wed 3/27/2019
+
+Molly shared that using the Jupyter magic %load -n <method name> fills a Jupyter cell with a function's documentation
+(the same info you normally get from running ??<method name>
+
+Rule of thumb: if you have a class that doesn't have any logic inside it, does it really need to be a class at all?
+
+What a callback is: a general semantic concept -> when you want something to happen when another thing first happens in your class.
+i.e. an event handler for a button in a GUI (for example, print something on the screen when the button is tapped).
+
+Why you use would a class instead of a function: a class can store state (if we use a function we'd have to pass the state to it as an argument.
+
+In Python a leading underscore makes a function private -> means function does not appear among tab-completion options if function is inside another class or function.
+
+Using Mean absolute deviation often works much better than variance/std dev because mean absolute deviation isn't as sensitive to outliers. The only reason more people don't use it is cause it's not what people are used to using -- no other better reason.
+
+
+Thurs 4/4/2019
+
+Jeremy is thinking lately that weight decay doesn't provide regularization: "we know it does something but we don't know what and why"
+
+He said some papers have questioned the belief that weight decay provides regularization, but that they have largely been ignored.
+
+He suggested that we could do some research to find out what, exactly, weight decay is doing:
+
+    "Compare & contrast: having lots of WD + batchnorm, with, not having a lot of WD and batchnorm. Look at layer telemetries under each of these conditions."
+ 
+
+Tues 4/9/2019
+
+Below are some papers exploring what weight decay might actually be doing. We know it's not adding regularization when used in conjunction with batchnorm. Any factor by which we multiply out weights and then subtract from the actual weight values during the course of a weight update (namely, weight decay) would just be immediately normalized away by a batchnorm layer. Essentially, whatever regularization we might do with weight decay, we then promptly undo with batchnorm.
+
+The question persists: when I have batchnorm, and then add weight decay, and then remove weight decay, my model's performance changes noticeably. Why does this happen? If weight decay isn't regularizing, what exactly is it doing that affects my model's performance? No one yet knows the answer to this according to Jeremy. However, there have been published two papers that attempt to offer explanations:
+
+1. L2 Regularization Versus Batch and Weight Normalization, 1706.05350
+2. Norm Matters: Efficient and Accurate Normalization Scheme in Deep Networks, 1813.01814
+
+After glancing over the synopses of both these papers, one thing that Jeremy wondered out-loud was, "one thing that doesn't change is that even with batchnorm your gradients are smaller by whatever magnitude you used as your weight decay multiplier. This is essentially the same as having a learning rate that has been decreased by that same magnitude. This could reasonably lead one to think that whatever you actually are doing when you use weight decay with batchnorm, you could also probably accomplish just as well by tweaking the learning rate. i.e. making it smaller.
+
+
+Mon 4/15/2019
+
+Setting up an AWS instance for Swift for TensorFlow:
+-g3s.xlarge is Jeremy's favorite AWS instance cause it's the most cost-effective
+-apt-fast is a wrapper that makes apt-get really fast (downloads packages in parallel)
+-Jeremy keeps his "dot" files (standard config files like .gitconfig etc. on github and copies them over whenever creating a new instance (something like this would help me get my .kaggle file onto my new instances)
+-the command: sudo modprobe nvidia: allows for installing of Nvidia drivers without needing to restart.
+-Jeremy said he'd put his install scripts inside a gist so we can use them as a template.
+-When installing CUDA, add --extract to the end of the install command
+-The command: ubuntu-drivers devices: a good way to see what nvidia drivers are available for the GPUs on your machine.
+
+From Chris Lattner:
+------------------
+-Goal for S4TF: create an infinitely hackable research platform (near-term focus). Longer term: for production as well.
+-Fortran people figured out autodiff in the 70s and S4TF is trying to make use of those practices.
+-Swift isn't optimized for writing code the fastest --> it's optimized for getting to the correct code the fastest (means shrinking length of the debugging cycle, making maintenance easier, etc.)
+-Idea of a pure abstraction vs. a leaky abstraction. Pure abstraction shields you from having to worry about API things that aren't directly relevant to the exact problem you're trying to solve. Swift is built to provide pure abstraction.
+-Swift was not designed as a replacement for Objective-C. It was actually designed to accomodate everything from scripting all the way to systems. Most languages begin with a niche and are extended to tangential applications, that they aren't often adequately suited for. E.g. Python was scripting for Unix but not is used to program super computers. Or C was used for PDP-11s but now is used widely and is the source of many security vulnerabilities cause it wasn't designed with that in mind.
+-Swift adheres to progressive disclosure of complexity.
+-Apple's Foundation library (which dates from NExtStep in the 80s) is garbage. In particular the file system API.
+-Could say that Python owns the ML space so why should Swift even bother. COuld also say well Python is just wrappers on C and Swift can do that better.
+-Chris is glad that from Swift versions 1.0 thru 3.0, the APIs changed with every release. Got away from legacy Obj-C junkiness.
+-Chris' view: doesn't know what right approach is (use value semantics or reference semantics) but better to start with value semantics to see if it works or not. Cause we already know reference semantics works and if we began there we'd never even try out value semantics. So let's at least try out value semantics cause if it does work it'll be better.
+-"CoreData is such garbage"
+-@cachable first user-defined attribute that's making its way into Swift. Will be a good thing. Make system more hackable. Which is good.
+-Hope: Get people talking, tweeting, blogging about awesome stuff they're doing with S4TF. Inspire more folks to try out S4TF so they can do that unique cool stuff that's been done with S4TF.
+
+
+Tues 4/16/2019
+
+Using preact resnet works better for resnet101 and deeper
+For deeper resnets initializing bn layer weights in non-identity path cn layers helps keep the first forward pass to be closer to a true identity. This helps.
+True depth of a resnet is the number of non-identity blocks that have conv layers
+When doing distributed training, you generally want to scale the learning rate to batch size. If you double batchsize, you'd wanna double learning rate.
+People who train big models at large batch sizes recommend turning off weight decay for batchnorm layer weights (gamma)
+
+Generally, as you train for more epochs you wanna begin to add some mixup
+
+torch.save is basically the same as saving a pickle. But it adds some metadata.
+
+By default in fastai, when we freeze a layer we don't freeze batchnorm layers. This is what makes transfer learning possible.
+
+
+Fri 4/19/2019
+
+Advice from Brett Koonce about context switching in between way diff languages (like Python vs. Swift): "Taking time to re-learning things from scratch is helpful." Do this again and again. Actually taking the time to force yourself to switch context from a familiar language to a new/unfamiliar language -- helps to unlearn bad programming habits you've unwittingly developed while being all peaceful and comfortable in your familiar language.
+
+Chris Lattner and Jeremy rehearsing for S4TF lesson 1 this coming Tues:
+- Swift's goal wasn't to make a point about a certain development philosophy but to seem familiar
+-having a language-integrated autodiff 
+-QRNN was invented by James Bradbury. Was a much faster RNN. But the kicker is: has to be implemented in CUDA, so no one uses it cause no one wants to go down or even knows how to go down to CUDA. This is the kinda stuff that motivated creation of S4TF.
+-for programming langauges, there's a lot of weird things we're living with now that don't make sense. We're tied to legacies we don't need to be tied to. E.g. why can a string be implemented in C from C primitives, but arrays are hard-coded into the compiler. LLVM was an attempt to address this. 
+-beauty of swift is you can make things work and make them fast all in the same language.
+-Swift being infinitely hackable means that whatever is in your head as a practitioner you can implement in the computer.
+-most important functions:
+    - map: applies an operation to every item in an array
+    - sum: reduces an array of values to a scalar
+    - filter: returns matching items of an array
+-closures in swift inside the curly-braces are the same as lambda: x in Python
+-why does Swift have try! statements: for code readability, so that the next person coming along will notice what the original author is actually trying to accomplish with the try! statement.
+-at the core, optionals in Swift are just enums. An enum with a None case.
+-Swifts native APIs aren't really ideal for interactive/datasci programming. They were created to be geared to folks trying to develop iphone apps will be used by millions of folks and won't crash. But it's easy adjust when necessary.
+-Chris is a fan of you doing whichever API style works for you. Don't have to do verbose (but consistent) Swift style if you don't wanna. 
+-Swift doesn't need with-block syntax cause you can do it with closures
+-S4TF we see now isn't the future. In a few months we'll see XLA being used as a compiler with TF. Eventually, in a year, the compiler will be again switched to MLIR, which is based on LLVM.
+-Original LLVM wouldn't be good for numerical stuff. Tho it is good on CPUs, it doesn't do ML accelerators, doesn't do 2-d or higher vectors. 
+-Chris mentioned that significantly, it wasn't programmers or compiler research community that took us to the cutting edge, it was instead some data scientists who invented a concept of a Tensor and now massive parallel computation happens, but on GPUs. Not on multicore CPUs, which everyone said for years would be "the future," but guess what that future is here and no one builds for multicore!
+-Jeremy: Swift will open up DL research stuff for many more kinds of people, cause Swift means you won't have to write your own custom matmul on CUDA. 
+-in Swift, classes and closures are references, not values
+-Swift COW (copy on write): it's possible to pass around "copies" of arrays very inexpensively just using pointers. You only make an actual copy if you change the array.
+
+-in Swift Jupyter notebooks err on side of using var more than let
+
+
+
+
+
+
+
