@@ -39,7 +39,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Group Normalization](https://arxiv.org/abs/1803.08494)
 * [Revisiting Small Batch Training for Deep Neural Networks](https://arxiv.org/abs/1804.07612)
 
-### Week 11: Data Loading and Optimizers 
+### Week 11: Data Loading, Optimizers, and Augmentations 
 * [Layer-Sequential Unit-Variance (LSUV) Weight Initialization](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/07a_lsuv_my_reimplementation.ipynb?flush_cache=true)
 * [Building fastai's DataBlock API from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/08_data_block_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers

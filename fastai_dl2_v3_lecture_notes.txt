@@ -317,7 +317,7 @@ HW Lesson 10:
 
 
 Lesson 11
-Deep Learning from the Foundations: Data Loading and Optimizers
+Deep Learning from the Foundations: Data Loading, Optimizers, and Augmentation
 Wednesday, April 10, 2019
 -------------------------
 
