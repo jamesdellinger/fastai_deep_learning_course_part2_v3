@@ -28,10 +28,10 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Exact solutions to the nonlinear dynamics of learning in deep linear neural networks](https://arxiv.org/abs/1312.6120)
 * [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
 
-### Week 10: Wrapping up our CNN
+### Week 10: Wrapping up CNNs
 * [Early Stopping](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/05b_early_stopping_my_reimplementation.ipynb?flush_cache=true)
 * [CUDA Training and Hooks](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/06_cuda_cnn_hooks_init_my_reimplementation.ipynb?flush_cache=true)
-* [Batchnorm: To Be Released by end of June, 2019]()
+* [Batchnorm (to be released by end of June, 2019)]()
 #### Relevant Papers
 * [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
 * [Layer Normalization](https://arxiv.org/abs/1607.06450)
@@ -43,5 +43,17 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Layer-Sequential Unit-Variance (LSUV) Weight Initialization](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/07a_lsuv_my_reimplementation.ipynb?flush_cache=true)
 * [Building fastai's DataBlock API from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/08_data_block_my_reimplementation.ipynb?flush_cache=true)
 * [Improving PyTorch's Optimizers](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/09_optimizers_my_reimplementation.ipynb?flush_cache=true)
+* [Data Augmentation]()
 #### Relevant Papers
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
+* [Decoupled Weight Regularization](https://arxiv.org/abs/1711.05101.pdf)
+* [L2 Regularization versus Batch and Weight Normalization](https://arxiv.org/abs/1706.05350)
+* [Norm matters: efficient and accurate normalization schemes in deep networks](https://arxiv.org/abs/1803.01814)
+* [Three Mechanisms of Weight Decay Regularization](https://arxiv.org/abs/1810.12281)
+* [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
+* [Reducing BERT Pre-Training Time from 3 Days to 76 Minutes (LAMB optimizer paper)](https://arxiv.org/abs/1904.00962)
+
+### Week 12: 
+* []()
+#### Relevant Papers
+* []()

@@ -58,7 +58,7 @@ He suggested that we could do some research to find out what, exactly, weight de
 
 Tues 4/9/2019
 
-Below are some papers exploring what weight decay might actually be doing. We know it's not adding regularization when used in conjunction with batchnorm. Any factor by which we multiply out weights and then subtract from the actual weight values during the course of a weight update (namely, weight decay) would just be immediately normalized away by a batchnorm layer. Essentially, whatever regularization we might do with weight decay, we then promptly undo with batchnorm.
+Below are some papers exploring what weight decay might actually be doing. We know it's not adding regularization when used in conjunction with batchnorm. Any factor by which we multiply our weights and then subtract from the actual weight values during the course of a weight update (namely, weight decay) would just be immediately normalized away by a batchnorm layer. Essentially, whatever regularization we might do with weight decay, we then promptly undo with batchnorm.
 
 The question persists: when I have batchnorm, and then add weight decay, and then remove weight decay, my model's performance changes noticeably. Why does this happen? If weight decay isn't regularizing, what exactly is it doing that affects my model's performance? No one yet knows the answer to this according to Jeremy. However, there have been published two papers that attempt to offer explanations:
 
