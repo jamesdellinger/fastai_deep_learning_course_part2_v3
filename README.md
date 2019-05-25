@@ -43,7 +43,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Layer-Sequential Unit-Variance (LSUV) Weight Initialization](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/07a_lsuv_my_reimplementation.ipynb?flush_cache=true)
 * [Building fastai's DataBlock API from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/08_data_block_my_reimplementation.ipynb?flush_cache=true)
 * [Improving PyTorch's Optimizers](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/09_optimizers_my_reimplementation.ipynb?flush_cache=true)
-* [Data Augmentation]()
+* [Batch Image Augmentation and PyTorch JIT]()
 #### Relevant Papers
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
 * [Decoupled Weight Regularization](https://arxiv.org/abs/1711.05101.pdf)
@@ -52,6 +52,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Three Mechanisms of Weight Decay Regularization](https://arxiv.org/abs/1810.12281)
 * [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
 * [Reducing BERT Pre-Training Time from 3 Days to 76 Minutes (LAMB optimizer paper)](https://arxiv.org/abs/1904.00962)
+* [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
 
 ### Week 12: 
 * []()
