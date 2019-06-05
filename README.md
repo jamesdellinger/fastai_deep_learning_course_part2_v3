@@ -43,7 +43,10 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Layer-Sequential Unit-Variance (LSUV) Weight Initialization](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/07a_lsuv_my_reimplementation.ipynb?flush_cache=true)
 * [Building fastai's DataBlock API from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/08_data_block_my_reimplementation.ipynb?flush_cache=true)
 * [Improving PyTorch's Optimizers](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/09_optimizers_my_reimplementation.ipynb?flush_cache=true)
-* [Batch Image Augmentation and PyTorch JIT]()
+* [Batch Image Augmentation and PyTorch JIT](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10_augmentation_my_reimplementation.ipynb?flush_cache=true)
+* [NVIDIA's DALI Batch Image Augmentation Library](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/Diving_into_DALI.ipynb?flush_cache=true)
+    * [My Medium Post on DALI]() 
+
 #### Relevant Papers
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
 * [Decoupled Weight Regularization](https://arxiv.org/abs/1711.05101.pdf)
@@ -55,6 +58,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
 
 ### Week 12: 
-* []()
+* [mixup and Label Smoothing](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10b_mixup_label_smoothing_my_reimplementation.ipynb?flush_cache=true)
+* [FP16 Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10c_fp16_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
-* []()
+* [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
