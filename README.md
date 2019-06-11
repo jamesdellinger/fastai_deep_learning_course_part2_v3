@@ -62,3 +62,10 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [FP16 Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10c_fp16_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
 * [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
+
+<!-- ## USF Completion Certificate
+[<img src="https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/deep-learning-part-2-spring-2019.png" height="150"><br>Verify at Open Badge](https://openbadgepassport.com/app/badge/info/112423)
+
+## Dependencies
+* [requirements.txt](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/requirements.txt)
+* [environment.yml](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/quadcopter_project.yml) -->
