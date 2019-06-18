@@ -13,7 +13,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 ### Week 8: Building Optimized Matmul, Forward and Backpropagation from Scratch
 * [Matrix Multiplication](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/01_matmul_my_reimplementation.ipynb?flush_cache=true)
 * [Forward & Backward Passes](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/02_fully_connected_my_reimplementation.ipynb?flush_cache=true)
-    * [My Medium Post on Weight Initialization](https://medium.com/@jamesdell/weight-initialization-in-neural-networks-a-journey-from-the-basics-to-kaiming-954fb9b47c79)    
+    * [My Medium Post on Weight Initialization](https://towardsdatascience.com/weight-initialization-in-neural-networks-a-journey-from-the-basics-to-kaiming-954fb9b47c79)    
 #### Relevant Papers
 * [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
 * [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a.html)
@@ -45,7 +45,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Improving PyTorch's Optimizers](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/09_optimizers_my_reimplementation.ipynb?flush_cache=true)
 * [Image Augmentation and PyTorch JIT](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10_augmentation_my_reimplementation.ipynb?flush_cache=true)
 * [NVIDIA's DALI Batch Image Augmentation Library](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/Diving_into_DALI.ipynb?flush_cache=true)
-    * [My Medium Post on DALI]() 
+    * [My Medium Post on DALI](https://towardsdatascience.com/diving-into-dali-1c30c28731c0) 
 
 #### Relevant Papers
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
