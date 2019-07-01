@@ -1,5 +1,5 @@
 # [Fast.ai](https://www.usfca.edu/data-institute/certificates/deep-learning-part-two) Deep Learning from the Foundations (Spring 2019)
-*Part II of Fast.ai's two-part deep learning course, offered through [The Data Institute at USF](https://www.usfca.edu/data-institute). From March through the end of April in 2019. Part I is [here](https://github.com/jamesdellinger/fastai_deep_learning_course_part1_v3).*
+*[Part II](https://www.youtube.com/watch?v=4u8FxNEDUeg) of Fast.ai's two-part deep learning course, offered through [The Data Institute at USF](https://www.usfca.edu/data-institute). From March through the end of April in 2019. Part I is [here](https://github.com/jamesdellinger/fastai_deep_learning_course_part1_v3).*
 
 A bottom-up approach (through code, not math equations) to becoming an expert deep learning practitioner and experimenter. 
 
@@ -58,7 +58,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
 
 ### Week 12: 
-* [mixup and Label Smoothing](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10b_mixup_label_smoothing_my_reimplementation.ipynb?flush_cache=true)
+* [Mixup and Label Smoothing](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10b_mixup_label_smoothing_my_reimplementation.ipynb?flush_cache=true)
 * [FP16 Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10c_fp16_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
 * [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
