@@ -46,7 +46,6 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Image Augmentation and PyTorch JIT](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10_augmentation_my_reimplementation.ipynb?flush_cache=true)
 * [NVIDIA's DALI Batch Image Augmentation Library](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/Diving_into_DALI.ipynb?flush_cache=true)
     * [My Medium Post on DALI](https://towardsdatascience.com/diving-into-dali-1c30c28731c0) 
-
 #### Relevant Papers
 * [All you need is a good init](https://arxiv.org/abs/1511.06422)
 * [Decoupled Weight Regularization](https://arxiv.org/abs/1711.05101.pdf)
@@ -62,9 +61,13 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [FP16 Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10c_fp16_my_reimplementation.ipynb?flush_cache=true)
 * [A Flexible & Concise XResNet Implementation](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/11_train_imagenette_my_reimplementation.ipynb?flush_cache=true)
 * [Transfer Learning from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/11a_transfer_learning_my_reimplementation.ipynb?flush_cache=true)
+* [A Survey of Language Model Techniques](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/12_text_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
 * [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
 * [Rethinking the Inception Architecture for Computer Vision (label smoothing is in part 7)](https://arxiv.org/abs/1512.00567)
+* [Bag of Tricks for Image Classification with Convolutional Neural Networks (XResNets)](https://arxiv.org/abs/1812.01187)
+* [Regularizing and Optimizing LSTM Language Models (AWD-LSTM)](https://arxiv.org/abs/1708.02182)
+* [Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://arxiv.org/abs/1801.06146)
 
 <!-- ## USF Completion Certificate
 [<img src="https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/deep-learning-part-2-spring-2019.png" height="150"><br>Verify at Open Badge](https://openbadgepassport.com/app/badge/info/112423)
