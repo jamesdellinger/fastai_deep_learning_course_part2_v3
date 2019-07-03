@@ -31,7 +31,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 ### Week 10: Wrapping up CNNs
 * [Early Stopping](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/05b_early_stopping_my_reimplementation.ipynb?flush_cache=true)
 * [CUDA Training and Hooks](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/06_cuda_cnn_hooks_init_my_reimplementation.ipynb?flush_cache=true)
-* [Batchnorm (to be released by end of June, 2019)]()
+* [Batchnorm](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/07_batchnorm_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
 * [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
 * [Layer Normalization](https://arxiv.org/abs/1607.06450)
