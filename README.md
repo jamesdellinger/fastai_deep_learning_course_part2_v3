@@ -61,6 +61,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Mixup and Label Smoothing](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10b_mixup_label_smoothing_my_reimplementation.ipynb?flush_cache=true)
 * [FP16 Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10c_fp16_my_reimplementation.ipynb?flush_cache=true)
 * [A Flexible & Concise XResNet Implementation](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/11_train_imagenette_my_reimplementation.ipynb?flush_cache=true)
+* [Transfer Learning from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/11a_transfer_learning_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
 * [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
 * [Rethinking the Inception Architecture for Computer Vision (label smoothing is in part 7)](https://arxiv.org/abs/1512.00567)
