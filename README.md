@@ -56,7 +56,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Reducing BERT Pre-Training Time from 3 Days to 76 Minutes (LAMB optimizer paper)](https://arxiv.org/abs/1904.00962)
 * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
 
-### Week 12: MixUp, XResNets, and ULMFiT
+### Week 12: MixUp, XResNets, AWD-LSTM and ULMFiT
 * [Mixup and Label Smoothing](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10b_mixup_label_smoothing_my_reimplementation.ipynb?flush_cache=true)
 * [FP16 Training](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/10c_fp16_my_reimplementation.ipynb?flush_cache=true)
 * [A Flexible & Concise XResNet Implementation](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/11_train_imagenette_my_reimplementation.ipynb?flush_cache=true)
