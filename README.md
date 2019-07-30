@@ -69,9 +69,9 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Regularizing and Optimizing LSTM Language Models (AWD-LSTM)](https://arxiv.org/abs/1708.02182)
 * [Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://arxiv.org/abs/1801.06146)
 
-<!-- ## USF Completion Certificate
-[<img src="https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/deep-learning-part-2-spring-2019.png" height="150"><br>Verify at Open Badge](https://openbadgepassport.com/app/badge/info/112423)
+## Dependencies for PyTorch Notebooks
+* [requirements.txt](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/requirements_pytorch.txt)
+* [environment.yml](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/pytorch.yml)
 
-## Dependencies
-* [requirements.txt](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/requirements.txt)
-* [environment.yml](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/quadcopter_project.yml) -->
+<!-- ## USF Completion Certificate
+[<img src="https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/deep-learning-part-2-spring-2019.png" height="150"><br>Verify at Open Badge](https://openbadgepassport.com/app/badge/info/112423) -->
