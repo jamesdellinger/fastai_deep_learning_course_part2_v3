@@ -63,13 +63,11 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Transfer Learning from Scratch](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/11a_transfer_learning_my_reimplementation.ipynb?flush_cache=true)
 * [A Survey of Language Model Techniques](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/12_text_my_reimplementation.ipynb?flush_cache=true)
 #### Relevant Papers
-<!-- * [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
+* [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)
 * [Rethinking the Inception Architecture for Computer Vision (label smoothing is in part 7)](https://arxiv.org/abs/1512.00567)
 * [Bag of Tricks for Image Classification with Convolutional Neural Networks (XResNets)](https://arxiv.org/abs/1812.01187)
 * [Regularizing and Optimizing LSTM Language Models (AWD-LSTM)](https://arxiv.org/abs/1708.02182)
-* [Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://arxiv.org/abs/1801.06146) -->
-
-* [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412), [Rethinking the Inception Architecture for Computer Vision (label smoothing is in part 7)](https://arxiv.org/abs/1512.00567), [Bag of Tricks for Image Classification with Convolutional Neural Networks (XResNets)](https://arxiv.org/abs/1812.01187), [Regularizing and Optimizing LSTM Language Models (AWD-LSTM)](https://arxiv.org/abs/1708.02182), [Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://arxiv.org/abs/1801.06146)
+* [Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://arxiv.org/abs/1801.06146)
 
 ## Dependencies for PyTorch Notebooks
 * [requirements.txt](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/requirements_pytorch.txt)
