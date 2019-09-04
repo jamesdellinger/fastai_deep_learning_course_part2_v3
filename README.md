@@ -69,6 +69,9 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 * [Regularizing and Optimizing LSTM Language Models (AWD-LSTM)](https://arxiv.org/abs/1708.02182)
 * [Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://arxiv.org/abs/1801.06146)
 
+### Weeks 13 and 14: Implementing fastai/PyTorch classes from scratch in Swift!
+* [Making an XResNet34 Training Loop](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/13_swift_resnet_pipeline_s4tf_v04_my_reimplementation?flush_cache=true)
+
 ## Dependencies for PyTorch Notebooks
 * [requirements.txt](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/requirements_pytorch.txt)
 * [environment.yml](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/pytorch.yml)
