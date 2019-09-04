@@ -43,7 +43,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 ### Weeks 13 and 14: Implementing fastai/PyTorch classes from scratch in Swift!
 * [Making an XResNet34 Training Loop](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/13_swift_resnet_pipeline_s4tf_v04_my_reimplementation.ipynb?flush_cache=true)
 
-## Relevant Papers
+## Papers We Studied
 ### Week 8
 * [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
 * [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a.html)
