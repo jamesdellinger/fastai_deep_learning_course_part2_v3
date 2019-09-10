@@ -10,6 +10,8 @@ The final two weeks were spent diving deep into [Swift for TensorFlow](https://w
 All in all, I came away with both the know-how to engineer cutting-edge deep learning ideas from scratch with optimized code, as well as the expertise necessary to research and explore new ideas of my own.
 
 ## My Reimplementations of Lesson Notebooks
+I attempted to... I'm proudest of my notebooks that cover. I spent the most time trying to understand and then explain in plain English how both language models and the potential promise of the Swift for TensorFlow framework.
+
 ### Week 8: Building Optimized Matmul, Forward and Backpropagation from Scratch
 * [Matrix Multiplication](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/01_matmul_my_reimplementation.ipynb?flush_cache=true)
 * [Forward & Backward Passes](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/02_fully_connected_my_reimplementation.ipynb?flush_cache=true)
@@ -42,6 +44,7 @@ All in all, I came away with both the know-how to engineer cutting-edge deep lea
 
 ### Weeks 13 and 14: Implementing fastai/PyTorch classes from scratch in Swift!
 * [Making an XResNet34 Training Loop](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/13_swift_resnet_pipeline_s4tf_v04_my_reimplementation.ipynb?flush_cache=true)
+* [Explaining Automatic Differentiation with Swift](http://nbviewer.jupyter.org/github/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/14_swift_autodiff_explanation.ipynb?flush_cache=true)
 
 ## Papers We Studied
 ### Week 8
