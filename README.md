@@ -82,4 +82,4 @@ I attempted to... I'm proudest of my notebooks that cover. I spent the most time
 * [environment.yml](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/pytorch.yml)
 
 ## USF Completion Certificate
-[<img src="https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/images/USF_completion_cert_page1.jpg" height="150">](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/USF_completion_cert_page1.pdf)
+[<img src="https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/images/USF_completion_cert_page1.jpg" height="250">](https://github.com/jamesdellinger/fastai_deep_learning_course_part2_v3/blob/master/USF_completion_cert_page1.pdf)
